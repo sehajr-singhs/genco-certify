@@ -1,0 +1,36 @@
+{
+  "source": "huggingface.co/gridfm/genco-pf-contingency, mlflow/eval/test_1/predictions.parquet (GENCO paper checkpoint)",
+  "grid": "Texas2k_case1_2016summerpeak (ACTIVSg2000)",
+  "split": "test_1",
+  "partition": 0,
+  "n_scenarios": 199,
+  "n_ground_truth_consistent": 199,
+  "certified": 113,
+  "rejected": 86,
+  "reject_reasons": {
+    "limit_violated_at_solution": 46,
+    "prediction_far_from_solution": 40
+  },
+  "false_certifies": 0,
+  "ground_truth_limit_violating": 59,
+  "raw_genco_limit_violating": 189,
+  "raw_genco_mismatch_pu_median": 0.013972008643655241,
+  "raw_genco_mismatch_pu_max": 0.1539973624903117,
+  "raw_genco_mae_vm_pu": 0.00012812848520063605,
+  "raw_genco_max_err_vm_pu": 0.022085726252840332,
+  "raw_genco_mae_va_deg": 0.2558065771326674,
+  "nr_iterations_from_genco_median": 2.0,
+  "nr_iterations_flat_median": 4.0,
+  "flat_start_failures": 0,
+  "t_certify_s_median": 0.06151080000563525,
+  "t_flat_s_median": 0.11705289999372326,
+  "settings": {
+    "tol_mismatch": 1e-08,
+    "max_iter": 15,
+    "tol_vm": 0.01,
+    "tol_va_deg": 1.0,
+    "limit_slack_v": 0.0001,
+    "limit_slack_s": 0.001,
+    "limit_slack_q": 0.001
+  }
+}

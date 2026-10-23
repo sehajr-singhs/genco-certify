@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+pyarrow
+huggingface_hub
+matplotlib

@@ -1,0 +1,50 @@
+{
+ "n": 989,
+ "partitions": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "certified": 609,
+ "rejected_limit": 216,
+ "rejected_far": 164,
+ "rejected_other": 0,
+ "false_certifies": 0,
+ "gt_limit_violating": 288,
+ "raw_limit_failing": 907,
+ "feasible_ceiling_pct": 70.9,
+ "it_genco_median": 2.0,
+ "it_flat_median": 4.0,
+ "t_genco_ms": 66.0,
+ "t_flat_ms": 121.4,
+ "sweep": {
+  "0.25": 2.7,
+  "0.5": 29.7,
+  "0.75": 52.1,
+  "1": 61.6,
+  "1.5": 69.3,
+  "2": 70.7,
+  "3": 70.9,
+  "4": 70.9,
+  "6": 70.9,
+  "8": 70.9
+ },
+ "sweep_false": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "flat_failures": 0,
+ "mae_vm": 0.00011939567362435689,
+ "mae_va": 0.2545321523612288,
+ "mismatch_median": 0.0129049317913917
+}
